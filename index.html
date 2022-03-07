@@ -27,14 +27,17 @@
                     (All 4 integers are present, two in the right positions and two in the wrong positions) </li>
                 <li>And a guess of <span class="red">5678</span> would be 0 dead and 0 wounded (No correct integer)</li>
             </ul>
-            
         </div>
     </div>
     
     <div class="game-area">
+        <div class="log">
+            <h3>History</h3>
+            <ul id="guesses"></ul>
+        </div>
         <div class="prompt">
-            <h1 id="test">Enter your guess</h1>
-            <p>PS: you have 4 lives and if you die here, you die in real life 😝</p>
+            <h1 id>Enter your guess</h1>
+            
         </div>
         <div class="guess-boxes">
 
@@ -46,11 +49,13 @@
 
             <button type="submit" class="submit" onclick="deadAndWounded()">Guess</button>
 
+
             <div class="result-area">
                 <h3 id="result"></h3>
             </div>
 
         </div>
+
         
     </div>
 
